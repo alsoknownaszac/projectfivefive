@@ -10,6 +10,9 @@ module.exports = {
     imageSizes: [256, 276, 320, 350, 420, 508],
   },
   theme: {
+    fontFamily: {
+      Reenie: ["Reenie Beanie", "cursive"],
+    },
     screens: {
       "3xs": "360px",
       "2xs": "414px",
@@ -61,7 +64,7 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1.25rem",
+        DEFAULT: "1rem",
         sm: "2rem",
         lg: "3rem",
         xl: "4rem",

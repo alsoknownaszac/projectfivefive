@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 import BasicPopover from "../home/BasicPopover";
 
@@ -14,21 +15,21 @@ export default function Navbar() {
     <>
       <div className="fixed z-50 top-0 w-full bg-white">
         <nav className="container flex justify-between items-center z-20">
-          <div className="my-5 lg:my-6 font-semibold text-[hsl(337,31%,66%)]">
-            Project 55
+          <div className="my-4 lg:my-5 text-[16px] lg:text-[22px] font-semibold font-[Mynerve] text-[hsl(143,26%,78%)]">
+            ProjectFiveFive
           </div>
 
           <div className="hidden lg:block text-sm text-neutral-grayish-blue">
             {navItems.map((navItem, i) => (
-              <a key={i} href={`#${navItem.link}`}>
+              <Link key={i} href={`#${navItem.link}`} passHref={true}>
                 <span className="mx-3 py-5 hover:gradient-border-bottom">
                   {navItem.name}
                 </span>
-              </a>
+              </Link>
             ))}
           </div>
 
-          <BasicPopover
+          {/* <BasicPopover
             className="!px-0 !w-fit"
             contentStyles="!-translate-x-[60%] !translate-y-[5px] !p-[20px] !rounded-[23px] !bg-white"
             btn={
@@ -45,7 +46,7 @@ export default function Navbar() {
                 <div className="py-3 hover:bg-gray-300">Whatsapp Message</div>
               </a>
             </div>
-          </BasicPopover>
+          </BasicPopover> */}
         </nav>
       </div>
 
@@ -56,11 +57,11 @@ export default function Navbar() {
       >
         <div className="bg-white text-primary-dark-blue flex flex-col text-center mx-5 my-20 py-4 rounded">
           {navItems.map((navItem, i) => (
-            <a key={i} href={`#${navItem.link}`}>
+            <Link key={i} href={`#${navItem.link}`} passHref={true}>
               <span className="mx-3 py-5 hover:gradient-border-bottom">
                 {navItem.name}
               </span>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

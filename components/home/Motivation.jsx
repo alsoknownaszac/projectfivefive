@@ -48,14 +48,19 @@ export default function Motivation() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-9 lg:gap-6 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-3 lg:gap-5 lg:grid-cols-4">
           {motivationItems.map((item) => (
             <div key={item.title} className="justify-center">
               <div className="flex justify-center lg:justify-start">
-                <Image src={item.iconPath} alt={item.title} />
+                <Image
+                  width={55}
+                  height={55}
+                  src={item.iconPath}
+                  alt={item.title}
+                />
               </div>
 
-              <h2 className="text-lg text-primary-dark-blue py-4 lg:pt-9 lg:pb-6 lg:text-xl lg:font-bold">
+              <h2 className="text-lg text-primary-dark-blue pb-4 lg:pt-5 lg:pb-6 lg:text-xl lg:font-bold">
                 {item.title}
               </h2>
               <p className="text-neutral-grayish-blue text-sm font-light lg:text-base leading-5">

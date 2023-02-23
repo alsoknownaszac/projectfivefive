@@ -12,7 +12,7 @@ export default function Testimonials() {
           </div>
         </div>
         <div>
-          <div className="w-full sm:grid sm:grid-cols-2 xl:grid-cols-4 gap-6 mb-8 md:mb-0 flex-between items-center ">
+          <div className="w-full grid sm:grid-cols-2 xl:grid-cols-4 gap-6 mb-8 md:mb-0 flex-between items-center ">
             <div className="bg-white dark:bg-gray-800 shadow-lg mx-auto rounded-xl p-4">
               <p className="text-gray-600 dark:text-white">
                 <span className="font-bold text-indigo-500 text-lg">“</span>

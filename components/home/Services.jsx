@@ -17,14 +17,14 @@ export default function Services() {
               Our Services
             </h2>
             <p className="text-neutral-grayish-blue text-sm lg:text-base leading-5">
-              Project 55 is different. Where other services simply offer you a
-              list of contractor choices, we provide you with a carefully
+              ProjectFiveFive is different. Where other services simply offer
+              you a list of contractor choices, we provide you with a carefully
               matched contractor for your needs, chosen from our expert
               contractor network.
             </p>
           </div>
         </div>
-        <div className="sm:grid grid-cols-2 xl:grid-cols-4 justify-center items-center text-center gap-10">
+        <div className="sm:grid grid-cols-2 xl:grid-cols-4 justify-center items-center text-center gap-4 lg:gap-10">
           <div className="hover:scale-110 cursor-pointer w-full px-4 py-4 bg-white mt-6 shadow-lg rounded-lg dark:bg-gray-800">
             <div className="flex-shrink-0">
               <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
@@ -39,7 +39,7 @@ export default function Services() {
               innovation and world-class service.
             </p>
           </div>
-          <div className="hover:scale-110 cursor-pointer w-full px-4 py-4 mt-6 translate-y-[45px] bg-white shadow-lg rounded-lg dark:bg-gray-800">
+          <div className="hover:scale-110 cursor-pointer w-full px-4 py-4 mt-6 lg:translate-y-[45px] bg-white shadow-lg rounded-lg dark:bg-gray-800">
             <div className="flex-shrink-0">
               <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <GoPaintcan size={35} color="white" />
@@ -67,7 +67,7 @@ export default function Services() {
               wet rooms, kitchen, swimming pools, etc
             </p>
           </div>
-          <div className="hover:scale-110 cursor-pointer w-full px-4 py-4 mt-6 translate-y-[45px] bg-white shadow-lg rounded-lg dark:bg-gray-800">
+          <div className="hover:scale-110 cursor-pointer w-full px-4 py-4 mt-6 lg:translate-y-[45px] bg-white shadow-lg rounded-lg dark:bg-gray-800">
             <div className="flex-shrink-0">
               <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <GiScrewdriver size={33} color="white" />

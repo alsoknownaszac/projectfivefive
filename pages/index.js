@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* <Navbar /> */}
+        <Navbar />
         <div className="relative overflow-hidden">
           <Hero />
           <Services />
@@ -26,7 +26,6 @@ export default function Home() {
           <Testimonials />
           <Motivation />
         </div>
-        {/* <Blog /> */}
         <CallToAction />
         <Footer />
       </main>
