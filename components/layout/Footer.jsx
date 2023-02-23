@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className="text-center flex items-center justify-between gap-6 lg:grid-cols-12 lg:gap-0">
           <div className="text-[16px] lg:text-[26px] font-light font-Reenie">
-            <span className="hidden lg:flex"> Developer - </span>
+            <span className="hidden lg:inline"> Developer - </span>
             <a href="https://twitter.com/Alsoknownaszac">
               <span className="text-[hsl(172,33%,74%)] animate-pulse">
                 @alsoknownaszac
