@@ -23,7 +23,7 @@ export default function Hero() {
                 className="!px-0 lg:w-fit"
                 contentStyles="w-[90vw] left-[0] lg:w-[280px] !p-[20px] !bottom-[40px] !rounded-[15px] !bg-gray-300/[.95]"
                 btn={
-                  <div className="inline bg-primary-lime-green px-7 py-3 rounded-full text-neutral-white text-xs lg:text-sm bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:button-brightness focus:outline-none focus:ring ring-green-400">
+                  <div className="flex bg-primary-lime-green px-7 py-3 rounded-full text-neutral-white text-xs lg:text-sm bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:button-brightness focus:outline-none focus:ring ring-green-400">
                     Talk to Us
                   </div>
                 }

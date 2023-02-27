@@ -34,8 +34,8 @@ export default function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
             className="lg:hidden focus:outline-none"
           >
-            <TiThMenu size={22} className={`${isOpen && "hidden"}`} />
-            <TiTimes size={22} className={isOpen ? "block" : "hidden"} />
+            <TiThMenu size={24} className={`${isOpen && "hidden"}`} />
+            <TiTimes size={28} className={isOpen ? "block" : "hidden"} />
           </button>
         </nav>
       </div>
@@ -47,9 +47,9 @@ export default function Navbar() {
       bg-opacity-50 ${isOpen ? "block" : "hidden"}`}
       >
         <div className="bg-white text-primary-dark-blue flex flex-col text-center mx-5 my-20 py-4 rounded">
-          {navItems.map((navItem) => (
+          {navItems.map((navItem, i) => (
             <a
-              key={navItem}
+              key={i}
               onClick={() => setIsOpen(false)}
               className="py-2"
               href={`#${navItem.link}`}

@@ -22,7 +22,7 @@ export default function Footer() {
           </div> */}
           <BasicPopover
             className="!px-0"
-            contentStyles="w-[70vw] right-[0px] lg:w-[250px] !p-[10px] !bottom-[40px] !rounded-[10px] !bg-white/[.8]"
+            contentStyles="w-[55vw] right-[0px] lg:w-[250px] !p-[10px] !bottom-[40px] !rounded-[10px] !bg-white/[.8]"
             btn={
               <div className="inline lg:hidden bg-primary-lime-green px-3 py-1 rounded-full text-neutral-white text-[10px] bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:button-brightness focus:outline-none focus:ring ring-green-400">
                 Let&apos;s Begin!

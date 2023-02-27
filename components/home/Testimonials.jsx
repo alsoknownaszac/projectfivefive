@@ -16,17 +16,17 @@ export default function Testimonials() {
             <div className="bg-white dark:bg-gray-800 shadow-lg mx-auto rounded-xl p-4">
               <p className="text-gray-600 dark:text-white">
                 <span className="font-bold text-indigo-500 text-lg">“</span>
-                To get social media testimonials like these, keep your customers
-                engaged with your social media accounts
+                Cheap price and good service. The guy came on time and did a
+                very nice job cleaning the blinds.
                 <span className="font-bold text-indigo-500 text-lg">”</span>
               </p>
               <div className="flex items-center mt-4">
                 <div className="flex flex-col ml-2 justify-between">
                   <span className="font-semibold text-indigo-500 text-sm">
-                    Jean Miguel
+                    Nkechi
                   </span>
                   <span className="dark:text-gray-400 text-xs flex items-center">
-                    User of Tail-Kit
+                    Owner of a Duplex
                   </span>
                 </div>
               </div>
@@ -34,17 +34,19 @@ export default function Testimonials() {
             <div className="bg-white dark:bg-gray-800 shadow-lg mx-auto rounded-xl p-4">
               <p className="text-gray-600 dark:text-white">
                 <span className="font-bold text-indigo-500 text-lg">“</span>
-                To get social media testimonials like these, keep your customers
-                engaged with your social media accounts
+                Booking the service online was very easy. The guy was thorough
+                and hardworking – he managed to clean all the mattresses in the
+                house for under 2 hours. Now that’s efficient! We will
+                definitely call again!
                 <span className="font-bold text-indigo-500 text-lg">”</span>
               </p>
               <div className="flex items-center mt-4">
                 <div className="flex flex-col ml-2 justify-between">
                   <span className="font-semibold text-indigo-500 text-sm">
-                    Jean Miguel
+                    Janet and Tim
                   </span>
                   <span className="dark:text-gray-400 text-xs flex items-center">
-                    User of Tail-Kit
+                    2 bedroom flat Owners
                   </span>
                 </div>
               </div>
@@ -52,17 +54,17 @@ export default function Testimonials() {
             <div className="bg-white dark:bg-gray-800 shadow-lg mx-auto rounded-xl p-4">
               <p className="text-gray-600 dark:text-white">
                 <span className="font-bold text-indigo-500 text-lg">“</span>
-                To get social media testimonials like these, keep your customers
-                engaged with your social media accounts
+                The best office cleaners in Delta! The booking is a breeze and
+                they are always flexible when it comes to setting the schedule
                 <span className="font-bold text-indigo-500 text-lg">”</span>
               </p>
               <div className="flex items-center mt-4">
                 <div className="flex flex-col ml-2 justify-between">
                   <span className="font-semibold text-indigo-500 text-sm">
-                    Jean Miguel
+                    Daniel
                   </span>
                   <span className="dark:text-gray-400 text-xs flex items-center">
-                    User of Tail-Kit
+                    Owner of Hon. Dan Law firm
                   </span>
                 </div>
               </div>
@@ -70,17 +72,18 @@ export default function Testimonials() {
             <div className="bg-white dark:bg-gray-800 shadow-lg mx-auto rounded-xl p-4">
               <p className="text-gray-600 dark:text-white">
                 <span className="font-bold text-indigo-500 text-lg">“</span>
-                To get social media testimonials like these, keep your customers
-                engaged with your social media accounts
+                The price is okay, communication with the office could have been
+                easier. However, the cleaner was polite and punctual and did a
+                very good job removing the stains from the carpet.
                 <span className="font-bold text-indigo-500 text-lg">”</span>
               </p>
               <div className="flex items-center mt-4">
                 <div className="flex flex-col ml-2 justify-between">
                   <span className="font-semibold text-indigo-500 text-sm">
-                    Jean Miguel
+                    Precious
                   </span>
                   <span className="dark:text-gray-400 text-xs flex items-center">
-                    User of Tail-Kit
+                    Boutique Owner
                   </span>
                 </div>
               </div>
