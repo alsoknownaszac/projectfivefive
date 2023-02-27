@@ -6,7 +6,7 @@ import { TiThMenu, TiTimes } from "react-icons/ti";
 const navItems = [
   { name: "Home", link: "home" },
   { name: "Services", link: "services" },
-  { name: "Testimonials", link: "testimonials" },
+  // { name: "Testimonials", link: "testimonials" },
   { name: "Why Choose us", link: "why_choose_us" },
 ];
 
@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="fixed z-50 top-0 w-full bg-white">
         <nav className="container flex justify-between items-center z-20">
           <div className="my-4 lg:my-5 text-[16px] lg:text-[22px] font-semibold font-[Mynerve] text-[hsl(143,26%,78%)]">
-            ProjectFiveFive
+            Triple E Solutions
           </div>
 
           <div className="hidden lg:block text-sm text-neutral-grayish-blue">

@@ -17,7 +17,7 @@ export default function Services() {
               Our Services
             </h2>
             <p className="text-neutral-grayish-blue text-sm lg:text-base leading-5">
-              ProjectFiveFive is different. Where other services simply offer
+              Triple E Solutions is different. Where other services simply offer
               you a list of contractor choices, we provide you with a carefully
               matched contractor for your needs, chosen from our expert
               contractor network.

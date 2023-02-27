@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ProjectFiveFive</title>
-        <meta name="description" content="ProjectFiveFive Contractors" />
+        <title>Triple E Solutions</title>
+        <meta name="description" content="Triple E Solutions Contractors" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -22,8 +22,8 @@ export default function Home() {
         <div className="relative overflow-hidden">
           <Hero />
           <Services />
-          <FeaturedServices />
-          <Testimonials />
+          {/* <FeaturedServices /> */}
+          {/* <Testimonials /> */}
           <Motivation />
         </div>
         <CallToAction />
